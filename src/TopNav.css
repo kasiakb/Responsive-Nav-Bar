@@ -29,9 +29,10 @@ a:active, a:visited, a:focus {
   padding: 1em 1.5em 1em 1em; }
   .nav_button:hover {
     background: #fef9fa; }
+    .nav_button:hover .nav-triangleUp {
+      top: 1.4em; }
 
-.nav--text:before {
-  content: "";
+.nav-triangleUp {
   position: absolute;
   right: 0.5em;
   top: 1.3em;
@@ -41,7 +42,20 @@ a:active, a:visited, a:focus {
   border-right: 5px solid transparent;
   border-top: 5px solid #0f3138; }
 
+.nav-triangleDown {
+  position: absolute;
+  right: 0.5em;
+  top: 1.5em;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #0f3138; }
+
 .nav_list {
+  display: none; }
+
+.nav_list--display {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
