@@ -5,6 +5,8 @@
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: border-box;
+  font-size: 100%;
+  line-height: 1em;
 }
 
 h1, h2 {
@@ -15,8 +17,6 @@ a:link {
   color: #0f3138;
   text-decoration: none;
   font-weight: 900;
-  line-height: 1em;
-  font-size: 100%;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
