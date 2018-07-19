@@ -14,7 +14,7 @@ h1, h2 {
 }
 
 a:link {
-  color: #0f3138;
+  color: $mainFont;
   text-decoration: none;
   font-weight: 900;
   text-transform: uppercase;
@@ -22,7 +22,7 @@ a:link {
 }
 
 a:active, a:visited, a:focus {
-  color: #0f3138;
+  color: $mainFont;
   border: none;
   outline: 0;
 }

@@ -28,6 +28,7 @@ a:active, a:visited, a:focus {
 .layout {
   position: relative;
   width: 100%;
+  color: #0f3138;
   padding: 3em 0.5em 11em 0.5em;
   background: #f9c3d3;
   top: 0;
@@ -40,7 +41,7 @@ a:active, a:visited, a:focus {
   text-align: center; }
 
 .intro__title-first {
-  color: white;
+  color: #ffffff;
   letter-spacing: 0.5em;
   font-size: 80%; }
 
@@ -50,7 +51,7 @@ a:active, a:visited, a:focus {
   margin: 2em 0 2em 0; }
 
 .intro__description {
-  color: white;
+  color: #ffffff;
   font-size: 110%;
   margin: 3em 5% 0 5%; }
 

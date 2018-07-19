@@ -1,8 +1,9 @@
 .layout {
   position: relative;
   width: 100%;
+  color: $mainFont;
   padding: 3em 0.5em 11em 0.5em;
-  background: #f9c3d3;
+  background: $mainBackground;
   top: 0;
   transition: top 0.30s ease-out;
 }
@@ -16,7 +17,7 @@
 }
 
 .intro__title-first {
-  color: white;
+  color: $white;
   letter-spacing: 0.5em;
   font-size: 80%;
 }
@@ -28,7 +29,7 @@
 }
 
 .intro__description {
-  color: white;
+  color: $white;
   font-size: 110%;
   margin: 3em 5% 0 5%;
 }
