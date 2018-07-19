@@ -1,0 +1,32 @@
+.layout {
+  position: relative;
+  width: 100%;
+  padding: 8% 0.5em 11em 0.5em;
+  background: #f9c3d3;
+  top: 0;
+  transition: top 0.30s ease-out; }
+
+.layout-down {
+  top: 24.75em; }
+
+.layout__intro {
+  text-align: center; }
+
+.intro__title-first {
+  color: white;
+  letter-spacing: 0.5em;
+  font-size: 100%; }
+
+.intro__title-second {
+  letter-spacing: 0.7em;
+  font-size: 200%;
+  margin: 1em 0 1em 0; }
+
+.intro__description {
+  color: white;
+  font-size: 100%;
+  margin: 1em 20% 0 20%; }
+
+@media (min-width: 58em) {
+  .layout-down {
+    top: 0; } }

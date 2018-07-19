@@ -1,0 +1,30 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+a:link {
+  color: #0f3138;
+  text-decoration: none;
+  font-weight: 900;
+  line-height: 1em;
+  font-size: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+a:active, a:visited, a:focus {
+  color: #0f3138;
+  border: none;
+  outline: 0;
+}
+
+.page-wrapper {
+  position: relative;
+}

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import TopNav from './TopNav';
+import Layout from './Layout';
+import './App.css';
 
 class App extends Component {
   constructor(props) {
@@ -23,12 +25,17 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.navButtonIsClicked, this.addClassName(this.state.navButtonIsClicked))
+   
     return (
-      <div>
+      <div className="page-wrapper">
         <TopNav
           displayNavBar = {this.displayNavBar}
           addClassName = {this.addClassName(this.state.navButtonIsClicked)}
+          clicked = {this.state.navButtonIsClicked}
+        />
+        <Layout
+          clicked = {this.state.navButtonIsClicked}
+          addClassName = {this.addClassName}
         />
       </div>
     );
