@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TopNav from './TopNav';
 import Layout from './Layout';
-import './App.css';
+
 
 class App extends Component {
   constructor(props) {

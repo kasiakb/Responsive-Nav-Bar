@@ -1,3 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: border-box; }
+
+h1, h2 {
+  text-transform: uppercase; }
+
+a:link {
+  color: #0f3138;
+  text-decoration: none;
+  font-weight: 900;
+  line-height: 1em;
+  font-size: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+a:active, a:visited, a:focus {
+  color: #0f3138;
+  border: none;
+  outline: 0; }
+
+.page-wrapper {
+  position: relative; }
+
+.layout {
+  position: relative;
+  width: 100%;
+  padding: 8% 0.5em 11em 0.5em;
+  background: #f9c3d3;
+  top: 0;
+  transition: top 0.30s ease-out; }
+
+.layout-down {
+  top: 24.75em; }
+
+.layout__intro {
+  text-align: center; }
+
+.intro__title-first {
+  color: white;
+  letter-spacing: 0.5em;
+  font-size: 100%; }
+
+.intro__title-second {
+  letter-spacing: 0.7em;
+  font-size: 200%;
+  margin: 1em 0 1em 0; }
+
+.intro__description {
+  color: white;
+  font-size: 100%;
+  margin: 1em 20% 0 20%; }
+
+@media (min-width: 58em) {
+  .layout-down {
+    top: 0; } }
 .nav {
   position: relative;
   background: #f9c3d3;
@@ -44,7 +103,6 @@
   to {
     left: 0%;
     right: 0%; } }
-
 .nav_list--display {
   position: absolute;
   top: 2.7em;
@@ -71,7 +129,6 @@
   to {
     left: 0%;
     right: 0%; } }
-
 .nav--underline:hover {
   position: relative; }
   .nav--underline:hover:before {
@@ -101,8 +158,10 @@
   .nav {
     background: #f9c3d3;
     padding: 1.25em 1.25em 0 0; }
+
   .nav_button {
     display: none; }
+
   .nav_list {
     position: relative;
     padding: 0;
@@ -113,3 +172,5 @@
     flex-flow: row wrap;
     font-size: 100%;
     background: #f9c3d3; } }
+
+/*# sourceMappingURL=Main.css.map */
